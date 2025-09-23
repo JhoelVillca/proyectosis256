@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InicioController;
 
+use App\Http\Controllers\SumaController;
+
 Route::get('/', function () {
    // return view('welcome');
    echo "Hola Mundo desde Laravel";
@@ -20,3 +22,5 @@ Route::get('/res', [InicioController::class, 'Resultado']);
 Route::get('/prueba', [InicioController::class, 'prueba']);
 
 
+Route::get('/SInicio', [SumaController::class, 'index']);
+Route::post('/sumar', [SumaController::class, 'sumar']) -> name('miSuma');

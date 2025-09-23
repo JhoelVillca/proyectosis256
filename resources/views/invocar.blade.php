@@ -8,7 +8,23 @@
 <body>
     <h1>MI PRIMERA VISTA</h1>
     <p>Hola desde la vista invocar.blade.php </p>
-    <h1>{{ $Saludo }}</h1>
-    <h2>{{ $mensaje }}</h2>
+    <p>{{ $Saludo }}</p>
+    <p>{{ $mensaje }}</p>
+
+    <h1>----------</h1>
+
+    <p>
+        <?php
+            echo $Saludo ;
+        ?>
+    </p>
+
+    <p>
+        <?php
+            echo $mensaje ;
+        ?>
+    </p>
+
+    
 </body>
 </html>
