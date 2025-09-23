@@ -23,8 +23,11 @@ class InicioController extends Controller
         echo "Haciendo una prueba";
     }
 
+  //hello world!
+    
     public function Invocar(){
-        return view('invocar');
+        $datos = array('Saludo' => 'Hola', 'mensaje' => 'contesta la web');
+        return view('invocar', $datos);
     }
 
     public function presentacion(){
@@ -33,16 +36,5 @@ class InicioController extends Controller
     
     public function comentario(){
         return view('comentarios');
-    }
-    public function kvkOrden(){
-        $a = 666;
-        $c = 572;
-        for($i=$c; $i <= $a ;) { 
-            for($j=1; $j<=4 ; $j++) { 
-                $i++;
-                echo $i."_   _";
-            }
-            echo "<br>";
-        }
     }
 }

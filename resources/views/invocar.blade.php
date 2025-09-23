@@ -7,14 +7,8 @@
 </head>
 <body>
     <h1>MI PRIMERA VISTA</h1>
-    <h2>MI PRIMERA VISTA</h2>
-    <h3>MI PRIMERA VISTA</h3>
-    <h4>MI PRIMERA VISTA</h4>
-    <h5>MI PRIMERA VISTA</h5>
-    <h6>MI PRIMERA VISTA</h6>
-    
-
-
     <p>Hola desde la vista invocar.blade.php </p>
+    <h1>{{ $Saludo }}</h1>
+    <h2>{{ $mensaje }}</h2>
 </body>
 </html>

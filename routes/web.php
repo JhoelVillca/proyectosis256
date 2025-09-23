@@ -9,6 +9,7 @@ Route::get('/', function () {
 });
 
 Route::get('/invocar', [InicioController::class, 'Invocar']);
+
 Route::get('/presentacion', [InicioController::class, 'presentacion']);
 Route::get('/comentario', [InicioController::class, 'comentario']);
 
@@ -18,4 +19,4 @@ Route::get('/nombre',[InicioController::class, 'nombre']);
 Route::get('/res', [InicioController::class, 'Resultado']);
 Route::get('/prueba', [InicioController::class, 'prueba']);
 
-Route::get('/kvkOrden', [InicioController::class, 'kvkOrden']);
+
