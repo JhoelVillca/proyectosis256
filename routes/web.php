@@ -5,6 +5,8 @@ use App\Http\Controllers\InicioController;
 
 use App\Http\Controllers\SumaController;
 
+use App\Http\Controllers\EcuacionCuadraticaController;
+
 Route::get('/', function () {
    // return view('welcome');
    echo "Hola Mundo desde Laravel";
@@ -24,3 +26,7 @@ Route::get('/prueba', [InicioController::class, 'prueba']);
 
 Route::get('/SInicio', [SumaController::class, 'index']);
 Route::post('/sumar', [SumaController::class, 'sumar']) -> name('miSuma');
+
+//Ec cuadratica
+Route::get('/EInicio', [EcuacionCuadraticaController::class, 'index']);
+Route::post('/ecuacioCuadratica', [EcuacionCuadraticaController::class, 'resEcuaCuadratica']) -> name('miEcuacionCuadratica');
