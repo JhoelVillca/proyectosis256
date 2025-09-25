@@ -8,7 +8,7 @@ class SumaController extends Controller
 {
     //
     public function index(){
-        return view('Isumar');
+        return view('rsumar');
     }
 
     public function sumar(Request $request){
