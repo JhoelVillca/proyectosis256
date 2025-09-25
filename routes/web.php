@@ -8,7 +8,7 @@ use App\Http\Controllers\SumaController;
 use App\Http\Controllers\EcuacionCuadraticaController;
 
 Route::get('/', function () {
-   // return view('welcome');
+   
    echo "Hola Mundo desde Laravel";
 });
 

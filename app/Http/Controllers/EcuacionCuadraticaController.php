@@ -29,5 +29,6 @@ class EcuacionCuadraticaController extends Controller
 
         $datos = array('a' => $a, 'b' => $b, 'c' => $c, 'x1' => $x1, 'x2' => $x2);
         return view('ecCuadratica', $datos);
+        
     }
 }
