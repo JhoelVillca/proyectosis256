@@ -13,6 +13,9 @@
         <input type="submit" value="Sumar">
     </form>
 
-    <p>{{ $a ?? '' }} + {{ $b ?? '' }} = {{ $s ?? '' }}</p>
+    <p>{{ $a }} + {{ $b }} = {{ $s }} 
+    
+    </p> 
+    
 </body>
 </html>
