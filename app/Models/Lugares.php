@@ -12,5 +12,4 @@ class Lugares extends Model
     protected $fillable = ['NOMBRE', 'Descripcion', 
                             'Latitud', 'Longitud', 
                             'estado']; 
-    
 }
